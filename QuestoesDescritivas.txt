@@ -1,4 +1,7 @@
-Questão 1 - 
-Questão 2 -
-Questão 3 -
-Questão 4 -
+Questão 1 - Um algoritmo é uma sequência de instruções ordenadas de forma lógica para a resolução de uma determinada tarefa ou problema.
+
+Questão 2 - Variáveis são alocações de memória nas quais podemos guardar dados, Elas têm um nome, tipo, e valor ,toda vez que você necessite usar uma variável você precisa declará-la e só então poderá atribuir valores a mesma, Ex de nome de variável: Int, String, Boolean.
+
+Questão 3 -Public é o modificador de acesso. Double indica que terá o retorno de um valor quebrado, em negrito é o nome do método, e entre os parênteses são os parâmetros.
+
+Questão 4 -Laço "for" que especifica os detalhes da repetição controlada por um contador de uma única linha de código. Instrução while pode ser utilizada para implementar qualquer loop controlado por contador, o laço while executa o incrementa antes de testar a condição e o switch pode ser usado para contar notas como por exemplo A,B,C,D,E equivalentes em um conjunto de notas numéricas inseridas pelo usuário .
