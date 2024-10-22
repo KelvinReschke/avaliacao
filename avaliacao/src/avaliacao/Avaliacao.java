@@ -18,7 +18,9 @@ public class Avaliacao {
     double[] precoConcerto = new double[10];
     int quantidadeDeProdutos = 0;
     String[] relatorio = new String[10];
-  String[] produtoConsertado = new String[10];
+    String[] produtoConsertado = new String[10];
+    String[] listadeProdutos = new String[10];
+
     public void menuDeOpcoes() {
         System.out.println("__________MENU__________"
                 + "\n tecle 1 para Receber Produto do cliente"
@@ -45,11 +47,14 @@ public class Avaliacao {
                     break;
                 case 1:
                     minhaClasse.FazeroConcerto();
-                        break;
-  default:
+                    break;
+                default:
                     System.out.println("essa opção não existe");
             }
-        } while (opcao != 8);
+        } while (opcao != 8kik
+    
+
+    )
     }
       
 
@@ -58,21 +63,28 @@ public class Avaliacao {
         produto[quantidadeDeProdutos] = entrada.next();
         System.out.println("informe o valor do produto");
         produto[quantidadeDeProdutos] = entrada.next();
-         System.out.println("informe a quantida de produtos ");
+        System.out.println("informe a quantida de produtos ");
         produto[quantidadeDeProdutos] = entrada.next();
     }
 
     public void FazeroConcerto() {
         System.out.println("informe o produto que deseja concertar ");
         String produtoConsertado = entrada.next();
-        for (int i = 0; i < quantidadeDeProdutos ; i++) {
-            if(produtoConsertado.equalsIgnoreCase(produto [quantidadeDeProdutos]))
+        for (int i = 0; i < quantidadeDeProdutos; i++) {
+            if (produtoConsertado.equalsIgnoreCase(produto[quantidadeDeProdutos])) {
                 System.out.println(" valor do conserto ");
-    }
-    }
-    public void entrega() {
-        System.out.println("informe o produto entregue ");
-        
+            }
         }
     }
 
+    public void entrega() {
+        System.out.println("informe o produto entregue ");
+        String produtoEntregue = entrada.next();
+        for (int i = 0; i < entregue; i++) {
+            if  {listadeProdutos
+            
+            }
+
+        }
+
+    }}
