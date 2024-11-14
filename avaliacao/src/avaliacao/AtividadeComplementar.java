@@ -96,6 +96,9 @@ public class AtividadeComplementar {
         String Atleta = entrada.next();
         for (int i = 0; i < resultadoCompleto; i++) {
           if (Atleta.equals(tempoProva[i])){
+//              travei a noite toda nesse linha de codigo a 98,foi oq me impediu de rodar o resto
+//              pois não consegui cadastrar o tempo dos competidores,
+//              fazendo com que eu n pudesse imprimer os relátórios 
                 provaCompleta [i] = true;
                 System.out.println("informe o resultado ");
                 tempoProva[i] = entrada.nextDouble();
